@@ -17,8 +17,11 @@ app.use((req, res, next) => {
 
 /* Add new routes here ... */
 app.post("/varify", (req, res, next) => {
-  const host = req.hostname;
-  const ip = req.connection.remoteAddress;
+  //   const host = req.hostname;
+  //   const ip = req.connection.remoteAddress;
+
+  const host = req.body.host;
+  const ip = req.body.ip;
   const licence_key = req.body.licence_key;
   const company_name = req.body.company_name;
 
