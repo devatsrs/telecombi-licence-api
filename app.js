@@ -41,10 +41,10 @@ app.post("/varify", (req, res, next) => {
         licence.ip === request.ip &&
         licence.host === request.host
       ) {
-        console.log(licence.company_name === request.company_name);
-        console.log(licence.licence_key === request.licence_key);
-        console.log(licence.ip === request.ip);
-        console.log(licence.host === request.host);
+        // console.log(licence.company_name === request.company_name);
+        // console.log(licence.licence_key === request.licence_key);
+        // console.log(licence.ip === request.ip);
+        // console.log(licence.host === request.host);
 
         return licence;
       }
