@@ -1,0 +1,10 @@
+[
+  {
+    "licence_key": "abc",
+    "host": "localhost",
+    "ip": "::1",
+    "company_name": "abc",
+    "expiry_date": "2020-12-31",
+    "type": 3
+  }
+]
