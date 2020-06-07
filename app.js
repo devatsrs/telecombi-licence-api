@@ -31,7 +31,7 @@ app.post("/varify", (req, res, next) => {
     ip: ip,
     host: host,
   };
-  console.log(request);
+  //console.log(request);
 
   const licences = require("./licences.json");
   //console.log(licences);
